@@ -1,0 +1,25 @@
+Classes and Their Relationships
+- ArtworkLocation: Enumerates possible locations for an artwork within the museum (Permanent Galleries, Exhibition Halls, Outdoor Spaces).
+- Artwork: Represents an artwork, including attributes like title, artist, date of creation, historical significance, and location.
+- Exhibition: Represents a museum exhibition, holding a collection of artworks. Exhibitions are temporary, with specified start and end dates, and a location within the museum.
+- Visitor: Models a museum visitor with attributes like name, age, ID, visitor type, optional student/teacher ID, tickets purchased, and group membership.
+- Group: Represents a group of visitors, tracking the number of visitors in the group. Groups can receive discounts.
+- Ticket: Represents a ticket purchased by a visitor for an event, with logic to calculate ticket prices based on visitor attributes (age, visitor type, group membership).
+- Museum: The main class representing the museum itself, holding collections of exhibitions and visitors.
+
+Functionality
+- **Exhibition and Artwork Management: The system allows adding new artworks and exhibitions to the museum. Each artwork is associated with an exhibition, and exhibitions can contain multiple artworks.
+- Visitor and Group Management: Visitors can book tickets either individually or as part of a group. The system supports visitor grouping, where groups with a certain size receive discounts.
+- Ticket Booking and Pricing: When booking tickets, the system calculates the ticket price based on visitor details (age, type, group membership) and includes VAT.
+- Information Display: The system can display comprehensive information about the museum, including details about exhibitions, artworks, visitors, and total ticket prices.
+
+User Interaction
+The program operates through a simple text-based menu that allows users to add artworks, book tickets, display museum information, or exit the program. It uses input prompts for user interaction and dynamically updates the museum's state based on user actions.
+
+Main Menu Options
+1. Add New Art to the Museum: Users can input details about a new artwork and its associated exhibition.
+2. Book a Ticket for Visitor(s): Facilitates booking tickets for one or more visitors, handling group logic and ticket pricing.
+3. Display All Information: Outputs details about the museum's exhibitions, artworks, visitors, and the total price for all booked tickets.
+4. End the Process: Exits the program.
+
+The code exemplifies object-oriented design, focusing on how entities within a museum system can interact and be managed through a simple user interface.
