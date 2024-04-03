@@ -1,0 +1,199 @@
+Main Menu:
+1- Add new art to the museum
+2- Book a ticket for a visitor(s)
+3- Display all information
+4- End the process
+Please enter your choice: 1
+Enter artwork title: Mona Lisa
+Enter artist name: Leonardo Da Vinci
+Enter date of creation: 1503
+Enter historical significance: Pretty significant
+Enter location (1- Permanent Galleries, 2- Exhibition Halls, 3- Outdoor Spaces): 1
+Enter exhibition name: Art of Inventors
+Enter exhibition start date: 2024-04-03
+Enter exhibition end date: 2024-04-10
+Artwork and exhibition added successfully.
+
+Main Menu:
+1- Add new art to the museum
+2- Book a ticket for a visitor(s)
+3- Display all information
+4- End the process
+Please enter your choice: 2
+How many visitors are booking tickets? 41
+Error: Please enter a number between 1 and 40.
+How many visitors are booking tickets? 0
+Error: Please enter a number between 1 and 40.
+How many visitors are booking tickets? -1
+Error: Please enter a number between 1 and 40.
+How many visitors are booking tickets? a
+Invalid input, please enter a numerical value.
+How many visitors are booking tickets? *
+Invalid input, please enter a numerical value.
+How many visitors are booking tickets? 4
+Enter visitor name: Ali
+Enter visitor age: 22
+Enter visitor ID: 9999
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Omar
+Enter visitor age: 16
+Enter visitor ID: 9191
+Is the visitor a teacher or student? (yes/no): yes
+Enter teacher/student ID: 0001
+Enter visitor name: Ahmed
+Enter visitor age: 25
+Enter visitor ID: 1119
+Is the visitor a teacher or student? (yes/no): yes
+Enter teacher/student ID: 002
+Enter visitor name: Khalid
+Enter visitor age: 67
+Enter visitor ID: 1111
+Is the visitor a teacher or student? (yes/no): no
+4 ticket(s) booked successfully.
+
+Main Menu:
+1- Add new art to the museum
+2- Book a ticket for a visitor(s)
+3- Display all information
+4- End the process
+Please enter your choice: 3
+Museum: Louvre, Location: Abu Dhabi, UAE
+Exhibition: Art of Inventors, Location: Permanent Galleries
+  Artwork: Mona Lisa, Artist: Leonardo Da Vinci
+Visitor: Ali, Age: 22, ID: 9999, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Omar, Age: 16, ID: 9191, Type: child, Student/Teacher ID: 0001
+  Event: Exhibition/Event Name, Price: 0 AED
+Visitor: Ahmed, Age: 25, ID: 1119, Type: adult, Student/Teacher ID: 002
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Khalid, Age: 67, ID: 1111, Type: senior, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 0 AED
+Total Price for all tickets: 132.3 AED
+
+Main Menu:
+1- Add new art to the museum
+2- Book a ticket for a visitor(s)
+3- Display all information
+4- End the process
+Please enter your choice: 2
+How many visitors are booking tickets? 15
+Enter visitor name: Abdullah
+Enter visitor age: 18
+Enter visitor ID: 7777
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Mansoor
+Enter visitor age: 26
+Enter visitor ID: 5454
+Is the visitor a teacher or student? (yes/no): yes
+Enter teacher/student ID: 003
+Enter visitor name: Saif
+Enter visitor age: 22
+Enter visitor ID: 8787
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Abdul-Aziz
+Enter visitor age: 16
+Enter visitor ID: 3456
+Is the visitor a teacher or student? (yes/no): yes
+Enter teacher/student ID: 004
+Enter visitor name: Mohammed
+Enter visitor age: 28
+Enter visitor ID: 8765
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Anas
+Enter visitor age: 31
+Enter visitor ID: 9762
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Adel
+Enter visitor age: 46
+Enter visitor ID: 6901
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Eissa
+Enter visitor age: 59
+Enter visitor ID: 0918
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Hamad
+Enter visitor age: 60
+Enter visitor ID: 6060
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Hamza
+Enter visitor age: 33
+Enter visitor ID: 3333
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Osama
+Enter visitor age: 20
+Enter visitor ID: 2020
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Adam
+Enter visitor age: 40
+Enter visitor ID: 4040
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Suhail
+Enter visitor age: 20
+Enter visitor ID: 0202
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Khalifa
+Enter visitor age: 36
+Enter visitor ID: 3636
+Is the visitor a teacher or student? (yes/no): no
+Enter visitor name: Zayed
+Enter visitor age: 46
+Enter visitor ID: 4646
+Is the visitor a teacher or student? (yes/no): no
+15 ticket(s) booked successfully.
+
+Main Menu:
+1- Add new art to the museum
+2- Book a ticket for a visitor(s)
+3- Display all information
+4- End the process
+Please enter your choice: 3
+Museum: Louvre, Location: Abu Dhabi, UAE
+Exhibition: Art of Inventors, Location: Permanent Galleries
+  Artwork: Mona Lisa, Artist: Leonardo Da Vinci
+Visitor: Ali, Age: 22, ID: 9999, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Omar, Age: 16, ID: 9191, Type: child, Student/Teacher ID: 0001
+  Event: Exhibition/Event Name, Price: 0 AED
+Visitor: Ahmed, Age: 25, ID: 1119, Type: adult, Student/Teacher ID: 002
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Khalid, Age: 67, ID: 1111, Type: senior, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 0 AED
+Visitor: Abdullah, Age: 18, ID: 7777, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Mansoor, Age: 26, ID: 5454, Type: adult, Student/Teacher ID: 003
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Saif, Age: 22, ID: 8787, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Abdul-Aziz, Age: 16, ID: 3456, Type: child, Student/Teacher ID: 004
+  Event: Exhibition/Event Name, Price: 0 AED
+Visitor: Mohammed, Age: 28, ID: 8765, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Anas, Age: 31, ID: 9762, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Adel, Age: 46, ID: 6901, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Eissa, Age: 59, ID: 0918, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Hamad, Age: 60, ID: 6060, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Hamza, Age: 33, ID: 3333, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Osama, Age: 20, ID: 2020, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Adam, Age: 40, ID: 4040, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Suhail, Age: 20, ID: 0202, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Khalifa, Age: 36, ID: 3636, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 66.15 AED
+Visitor: Zayed, Age: 46, ID: 4646, Type: adult, Student/Teacher ID: N/A
+  Event: Exhibition/Event Name, Price: 33.08 AED
+Total Price for all tickets: 1025.3299999999997 AED
+
+Main Menu:
+1- Add new art to the museum
+2- Book a ticket for a visitor(s)
+3- Display all information
+4- End the process
+Please enter your choice: 4
+Ending the process. Thank you for using the system.
